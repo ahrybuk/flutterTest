@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fluttertestapp/presentation/splash/SplashScreen.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,9 +10,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.teal,
       ),
-      home: Text("Olala"),
+      home: SplashScreen(),
     );
   }
 }
